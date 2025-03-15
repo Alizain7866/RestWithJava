@@ -31,7 +31,7 @@ public class StudentController {
     @Autowired StudentEntryService StudentEntryService;
 
 
-    @GetMapping("/abc")
+    @GetMapping("/all")
     public List<StudentEntry> getAll()
     {
         return StudentEntryService.getAll();
